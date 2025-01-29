@@ -22,8 +22,8 @@ html{
     padding: 4%;
     width: 100%;
     height: auto;
-    img {
-        
+    
+    img { 
         width: 15%;
         height: auto;
         object-fit: cover;
