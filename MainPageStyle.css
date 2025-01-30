@@ -37,6 +37,8 @@ nav {
     padding: 1%;
     position: sticky ;
     top: 0;
+    height: 2%;
+    z-index: 99;
 }
 
 nav ul {
@@ -77,6 +79,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     /* background: #333; */
     /* color: white; */
     padding: 2%;
@@ -90,18 +93,20 @@ nav ul li a {
         margin: 1%;
     }
     img{
-        width: 25%;
+        width: 300px;
         height: auto;
-        float: left;
         border-radius: 5px;
     }
-    .imgs{
-        display: flex;
-        flex-direction: row;
-    }
+
 
     min-height: 80vh;
 }
+
+.above_intro{
+    opacity: 0;
+}
+
+hr{opacity: 0;}
 
 .about{
 
@@ -109,8 +114,6 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background: #333;
-    color: white; */
     padding: 4%;
     margin: 10px;
     border-radius: 10px;
@@ -122,15 +125,12 @@ nav ul li a {
         margin: 1%;
     }
     img{
-        width: 50%;
+        width: 300px;
         height: auto;
         float: left;
         border-radius: 5px;
     }
-    .imgs{
-        display: flex;
-        flex-direction: row;
-    }
+
     min-height: 80vh;
 }
 
