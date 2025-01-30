@@ -12,6 +12,7 @@ html{
     scroll-behavior: smooth;
     background-color: #f4f4f4;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -22,15 +23,14 @@ html{
     padding: 4%;
     width: 100%;
     height: auto;
-    
-    img { 
+    img {
+        
         width: 15%;
         height: auto;
         object-fit: cover;
 
     }
 }
-
 
 nav {
     background: #444;
@@ -46,7 +46,6 @@ nav ul {
     list-style: none;
     justify-content: center;
 }
-
 
 nav ul li{
     margin: 5%;
@@ -72,20 +71,24 @@ nav ul li a {
     max-width: 1200px;
     margin: 2% auto;
     /* padding: 0 1rem; */
+    /* border: #333 solid 1px; */
 }
 
 .intro{
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    /* background: #333; */
-    /* color: white; */
+    background-color: #f4f4f4ff;
+    position: relative;
     padding: 2%;
-    margin: 10px;
+    margin: 20px;
+    /* min-width: 100%; */
+    
     border-radius: 10px;
-    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.151);
     h1{
         margin: 1%;
     }
@@ -98,44 +101,50 @@ nav ul li a {
         border-radius: 5px;
     }
 
-
     min-height: 80vh;
+    z-index: 98;
 }
 
-.above_intro{
+#above_intro{
     opacity: 0;
 }
 
 hr{opacity: 0;}
 
 .about{
-
+    background-color: #f4f4f4ff;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     padding: 4%;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.129);
+    
     h1{
         margin: 1%;
     }
+    
     p{
         margin: 1%;
     }
+
     img{
         width: 300px;
         height: auto;
-        float: left;
         border-radius: 5px;
     }
-
+    
     min-height: 80vh;
-}
+    z-index: 98;
+    }
 
 
 .contact {
+
     font-family: Arial, sans-serif;
     display: flex;
     text-align: center;
@@ -143,25 +152,26 @@ hr{opacity: 0;}
     align-items: center;
     width: 100%; 
     min-height: 80vh;
+    /* border: black solid 1px; */
 }
 
 .form-container {
     width: 100%;
     max-width: 500px;
     padding: 20px;
+    /* border: black solid 1px; */
 }
 
 .contact-form {
     background: white;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form:focus {
-    scale: 1.1;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.195);
+    /* border: black solid 1px; */
     transition: 1s;
 }
+
+
 
 h2 {
     text-align: center;
