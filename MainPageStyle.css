@@ -195,6 +195,7 @@ input, textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
+    transition: 0.75s;
 }
 
 textarea {
@@ -215,7 +216,10 @@ textarea {
 
 .submit-btn:hover {
     scale:1.1;
-    background-color: #358439;
+    color: #358439;
+    background-color: white;
+    border: #358439 solid 1px;
+
 }
 .submit-btn {
     transition: 1s;
@@ -225,6 +229,7 @@ input:focus, textarea:focus {
     outline: none;
     border-color: #4CAF50;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+    scale: 1.1;
 }
 
 
