@@ -85,7 +85,7 @@
         <div class="contact" id="contact">
 
             <div class="form-container">
-                <form class="contact-form">
+                <form class="contact-form" id="contact-form" >
                     <h2>Contact Us</h2>
                     <p>Get in touch with us for more information.</p>
                     <br>
@@ -112,8 +112,17 @@
     </div>
 
     <footer>
-        <p>&copy; 2025 Avantikulam</p>
+        <p>&copy; 2025 Avantikulam by Mustafa Koser</p>
     </footer>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            this.reset();
+            event.preventDefault();
+            alert("Form submitted successfully!");
+        });
+    </script>
+
 </body>
 
 </html>
