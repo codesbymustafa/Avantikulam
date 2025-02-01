@@ -6,7 +6,7 @@
  
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
 
 }
 html{
@@ -26,9 +26,12 @@ html{
     height: auto;
     img {
         
+        width: 14%;
+        height: auto;
+    }
+    #av_logo{
         width: 15%;
         height: auto;
-        object-fit: cover;
 
     }
 }
